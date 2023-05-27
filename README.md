@@ -1,35 +1,48 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Cloning the repository
+```
+git clone https://github.com/futureituki/NextAuth-template.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Install packages
+```
+npm i
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Setup .env file
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+DATABASE_URL=
+NEXTAUTH_SECRET=
 
-## Learn More
+NEXT_PUBLIC_PUSHER_APP_KEY=
+PUSHER_APP_ID=
+PUSHER_SECRET=
 
-To learn more about Next.js, take a look at the following resources:
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+GITHUB_ID=
+GITHUB_SECRET=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
 
-## Deploy on Vercel
+## SetUp Prisma
+```
+npx prisma db push
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Start the app 
+```
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# NextAuth-template
+# Available commands
+Running commands with npm `npm run [command]`
+
+| command         | description                              　　　　|
+| :-------------- | :--------------------------------------- 　　　　|
+| `dev`           | Starts a development instance of the app 　　　　|
+| `prisma`        | prisma studio https://www.prisma.io/studio |

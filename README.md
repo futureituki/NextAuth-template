@@ -37,3 +37,6 @@ Running commands with npm `npm run [command]`
 #### command                    　　　　
 ##### `dev`    : Starts a development instance of the app
 ##### `prisma` : prisma studio https://www.prisma.io/studio
+
+## ref 
+https://github.com/AntonioErdeljac/next13-messenger/blob/master/app/(site)/components/AuthForm.tsx

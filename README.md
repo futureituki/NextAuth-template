@@ -31,9 +31,9 @@ npm run dev
 ```
 
 # Available commands
+
 Running commands with npm `npm run [command]`
 
-| command         | description                              　　　　|
-| :-------------- | :--------------------------------------- 　　　　|
-| `dev`           | Starts a development instance of the app 　　　　|
-| `prisma`        | prisma studio https://www.prisma.io/studio |
+#### command                    　　　　
+##### `dev`    : Starts a development instance of the app
+##### `prisma` : prisma studio https://www.prisma.io/studio
